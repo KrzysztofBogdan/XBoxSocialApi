@@ -1,0 +1,434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b09cd485fd4cbfb62f09eb697aab32, type: 3}
+  m_Name: AchievementsData
+  m_EditorClassIdentifier: 
+  Achievements:
+  - Name: Hello Moto
+    AchievedIcon: {fileID: 2800000, guid: b95da8776809222439b2753f46390a47, type: 3}
+    UnachievedIcon: {fileID: 2800000, guid: 30c12a8006bd0eb48ad40730a7dce51e, type: 3}
+    ExternalName: 
+    ExternalId: 
+    Description: 
+    NotAchievedDescription: 
+    Hidden: 0
+    EstimatedTimeSeconds: 0
+    DeepLink: 
+    UnlockingProduct: 
+    Prop1: 
+    Prop2: 
+    Prop3: 
+    Prop4: 
+    Prop5: 
+    Prop6: 
+    Prop7: 
+    Prop8: 
+    Prop9: 
+    Prop10: 
+    XboxConfig:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 1
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 1
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    SteamConfig:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 1
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 1
+      Hidden: 0
+      OverrideHidden: 1
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    Embedded:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 1
+      ExternalName: 
+      OverrideExternalName: 1
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    Custom:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 1
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 1
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+  - Name: Hello My Name Is Animal
+    AchievedIcon: {fileID: 0}
+    UnachievedIcon: {fileID: 0}
+    ExternalName: 
+    ExternalId: 
+    Description: 
+    NotAchievedDescription: 
+    Hidden: 0
+    EstimatedTimeSeconds: 0
+    DeepLink: 
+    UnlockingProduct: 
+    Prop1: 
+    Prop2: 
+    Prop3: 
+    Prop4: 
+    Prop5: 
+    Prop6: 
+    Prop7: 
+    Prop8: 
+    Prop9: 
+    Prop10: 
+    XboxConfig:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 1
+      Description: 
+      OverrideDescription: 1
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 1
+      Hidden: 0
+      OverrideHidden: 1
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 1
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    SteamConfig:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    Embedded:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    Custom:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+  - Name: Achievement
+    AchievedIcon: {fileID: 0}
+    UnachievedIcon: {fileID: 0}
+    ExternalName: 
+    ExternalId: 
+    Description: 
+    NotAchievedDescription: 
+    Hidden: 0
+    EstimatedTimeSeconds: 0
+    DeepLink: 
+    UnlockingProduct: 
+    Prop1: 
+    Prop2: 
+    Prop3: 
+    Prop4: 
+    Prop5: 
+    Prop6: 
+    Prop7: 
+    Prop8: 
+    Prop9: 
+    Prop10: 
+    XboxConfig:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    SteamConfig:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    Embedded:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    Custom:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+  - Name: Achievement
+    AchievedIcon: {fileID: 0}
+    UnachievedIcon: {fileID: 0}
+    ExternalName: 
+    ExternalId: 
+    Description: 
+    NotAchievedDescription: 
+    Hidden: 0
+    EstimatedTimeSeconds: 0
+    DeepLink: 
+    UnlockingProduct: 
+    Prop1: 
+    Prop2: 
+    Prop3: 
+    Prop4: 
+    Prop5: 
+    Prop6: 
+    Prop7: 
+    Prop8: 
+    Prop9: 
+    Prop10: 
+    XboxConfig:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    SteamConfig:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    Embedded:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
+    Custom:
+      AchievedIcon: {fileID: 0}
+      OverrideAchievedIcon: 0
+      UnachievedIcon: {fileID: 0}
+      OverrideUnachievedIcon: 0
+      ExternalName: 
+      OverrideExternalName: 0
+      ExternalId: 
+      OverrideExternalId: 0
+      Description: 
+      OverrideDescription: 0
+      NotAchievedDescription: 
+      OverrideNotAchievedDescription: 0
+      Hidden: 0
+      OverrideHidden: 0
+      EstimatedTimeSeconds: 0
+      OverrideEstimatedTimeSeconds: 0
+      DeepLink: 
+      OverrideDeepLink: 0
+      UnlockingProduct: 
+      OverrideUnlockingProduct: 0
