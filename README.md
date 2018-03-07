@@ -2,9 +2,9 @@
 
 ## Basic Setup
 - Create Definition File (Menu > Assets > Create > Achievements Definition)
-- Fill definition data asset with your achievement information, most importantfield is ExternalId (Achievement Id) from XDP Portal.
-- Add SocialPro component to Gameobject (There should be only one instance of SocialPro componenet in game)
-- Check API example usage from exmaple scene
+- Fill definition data asset with your achievement information, most important field is ExternalId (Achievement Id) from XDP Portal.
+- Add SocialPro component to GameObject (There should be only one instance of SocialPro component in game)
+- Check API example usage from example scene
 
 ## Required XBox Native Plugins
 You need to add those Native Plugins to use Social Pro XBox:
