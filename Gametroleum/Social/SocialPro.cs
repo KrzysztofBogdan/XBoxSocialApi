@@ -133,7 +133,7 @@ namespace Gametroleum.Social
         }
 
 #if XBOXONE
-        private XBoxSocialManager _xBoxManager;
+        public XBoxSocialManager XBoxManager;
 
         private void Awake()
         {
@@ -149,9 +149,9 @@ namespace Gametroleum.Social
             if (XBoxEnableUsersManager) UsersManager.Create();
             if (XBoxEnableStatisticsManager) StatisticsManager.Create();
 
-            _manager = _xBoxManager = new XBoxSocialManager();
+            _manager = XBoxManager = new XBoxSocialManager();
 
-            _xBoxManager.Start(Data,
+            XBoxManager.Start(Data,
                 XBoxConnectedStorageContainerName,
                 XBoxConnectedStorageBlobName,
                 XBoxConnectedStorageBlobSize,
@@ -172,12 +172,12 @@ namespace Gametroleum.Social
 
         private void XboxSaveProgress()
         {
-            _xBoxManager.PersistAchievements();
+            XBoxManager.PersistAchievements();
         }
 
         private void Update()
         {
-            _xBoxManager.Update();
+            XBoxManager.Update();
         }
 #endif
     }
